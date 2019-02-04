@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.61028">
+<testcase classname="Login" name="validate login operation" time="9.61028">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at Pages.LoginPage.fillmbno(LoginPage.java:43)&#13;&#10;&#9;at stepDef.StepDefinition.user_name_is(StepDefinition.java:33)&#13;&#10;&#9;at ✽.When user name is &quot;9490010786&quot;(loginfeature.feature:10)&#13;&#10;"><![CDATA[Given Launch site using chrome..............................................passed
+When user name is "9490010786"..............................................failed
+And pwd is "Sudhesh"........................................................skipped
+And click login.............................................................skipped
+Then validate output for criteria "Send Free SMS"...........................skipped
+And close site..............................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at Pages.LoginPage.fillmbno(LoginPage.java:43)
+	at stepDef.StepDefinition.user_name_is(StepDefinition.java:33)
+	at ✽.When user name is "9490010786"(loginfeature.feature:10)
+]]></failure>
+</testcase>
+</testsuite>
